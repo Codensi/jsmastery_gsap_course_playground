@@ -25,3 +25,7 @@ dist-ssr
 
 # node modules
 .node_modules
+
+# ssh_key
+codensi
+codensi.pub
