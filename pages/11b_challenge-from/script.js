@@ -11,12 +11,14 @@ card.addEventListener("mouseenter", () => {
       ease: "power2.inOut",
       transformOrigin: "center center",
     });
+
     gsap.to(card, {
       rotationY: 180,
       duration: 0.8,
       ease: "power2.inOut",
       transformOrigin: "center center",
     });
+
     flipped = true;
   }
 });
@@ -29,12 +31,14 @@ card.addEventListener("mouseleave", () => {
       ease: "power2.inOut",
       transformOrigin: "center center",
     });
+
     gsap.to(card, {
       rotationY: 0,
       duration: 0.8,
       ease: "power2.inOut",
       transformOrigin: "center center",
     });
+
     flipped = false;
   }
 });
